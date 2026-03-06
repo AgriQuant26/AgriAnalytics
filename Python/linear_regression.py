@@ -34,4 +34,4 @@ df_2021['Order Date'] = df_2021['Order Date'].dt.strftime('%m/%d/%Y')
 
 final_df = pd.concat([df, df_2021.drop(columns=['Date_Ordinal'], errors='ignore')], ignore_index=True)
 final_df.to_csv('sales_with_regression_2021.csv', index=False)
-print("2021 data generated successfully using Linear Regression!")
+print("2021 data generated successfully using Linear Regressionin csv!")
