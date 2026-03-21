@@ -1,0 +1,233 @@
+crop_id,crop_name,crop_type
+1,Arecanut,Kharif
+2,Arecanut,Rabi
+3,Arecanut,Whole Year
+4,Arhar/Tur,Autumn
+5,Arhar/Tur,Kharif
+6,Arhar/Tur,Rabi
+7,Arhar/Tur,Summer
+8,Arhar/Tur,Whole Year
+9,Arhar/Tur,Winter
+10,Bajra,Kharif
+11,Bajra,Rabi
+12,Bajra,Summer
+13,Bajra,Whole Year
+14,Banana,Autumn
+15,Banana,Kharif
+16,Banana,Rabi
+17,Banana,Summer
+18,Banana,Whole Year
+19,Banana,Winter
+20,Barley,Kharif
+21,Barley,Rabi
+22,Barley,Whole Year
+23,Black Pepper,Kharif
+24,Black Pepper,Rabi
+25,Black Pepper,Whole Year
+26,Cardamom,Kharif
+27,Cardamom,Whole Year
+28,Cashewnut,Kharif
+29,Cashewnut,Rabi
+30,Cashewnut,Whole Year
+31,Castor Seed,Kharif
+32,Castor Seed,Rabi
+33,Castor Seed,Whole Year
+34,Coconut,Kharif
+35,Coconut,Whole Year
+36,Coriander,Kharif
+37,Coriander,Rabi
+38,Coriander,Whole Year
+39,Cotton(Lint),Autumn
+40,Cotton(Lint),Kharif
+41,Cotton(Lint),Rabi
+42,Cotton(Lint),Summer
+43,Cotton(Lint),Whole Year
+44,Cotton(Lint),Winter
+45,Cowpea(Lobia),Kharif
+46,Cowpea(Lobia),Rabi
+47,Cowpea(Lobia),Summer
+48,Cowpea(Lobia),Whole Year
+49,Dry Chillies,Autumn
+50,Dry Chillies,Kharif
+51,Dry Chillies,Rabi
+52,Dry Chillies,Summer
+53,Dry Chillies,Whole Year
+54,Dry Chillies,Winter
+55,Garlic,Kharif
+56,Garlic,Rabi
+57,Garlic,Whole Year
+58,Ginger,Autumn
+59,Ginger,Kharif
+60,Ginger,Rabi
+61,Ginger,Summer
+62,Ginger,Whole Year
+63,Ginger,Winter
+64,Gram,Kharif
+65,Gram,Rabi
+66,Gram,Whole Year
+67,Groundnut,Autumn
+68,Groundnut,Kharif
+69,Groundnut,Rabi
+70,Groundnut,Summer
+71,Groundnut,Whole Year
+72,Groundnut,Winter
+73,Guar Seed,Kharif
+74,Guar Seed,Rabi
+75,Guar Seed,Whole Year
+76,Horse-Gram,Kharif
+77,Horse-Gram,Rabi
+78,Horse-Gram,Summer
+79,Horse-Gram,Whole Year
+80,Horse-Gram,Winter
+81,Jowar,Autumn
+82,Jowar,Kharif
+83,Jowar,Rabi
+84,Jowar,Summer
+85,Jowar,Whole Year
+86,Jute,Autumn
+87,Jute,Kharif
+88,Jute,Rabi
+89,Jute,Summer
+90,Khesari,Kharif
+91,Khesari,Rabi
+92,Khesari,Whole Year
+93,Linseed,Kharif
+94,Linseed,Rabi
+95,Linseed,Whole Year
+96,Maize,Autumn
+97,Maize,Kharif
+98,Maize,Rabi
+99,Maize,Summer
+100,Maize,Whole Year
+101,Maize,Winter
+102,Masoor,Kharif
+103,Masoor,Rabi
+104,Masoor,Whole Year
+105,Mesta,Kharif
+106,Mesta,Rabi
+107,Mesta,Whole Year
+108,Moong(Green Gram),Autumn
+109,Moong(Green Gram),Kharif
+110,Moong(Green Gram),Rabi
+111,Moong(Green Gram),Summer
+112,Moong(Green Gram),Whole Year
+113,Moong(Green Gram),Winter
+114,Moth,Kharif
+115,Moth,Rabi
+116,Moth,Whole Year
+117,Niger Seed,Kharif
+118,Niger Seed,Rabi
+119,Niger Seed,Whole Year
+120,Niger Seed,Winter
+121,Oilseeds Total,Kharif
+122,Oilseeds Total,Rabi
+123,Oilseeds Total,Whole Year
+124,Onion,Autumn
+125,Onion,Kharif
+126,Onion,Rabi
+127,Onion,Summer
+128,Onion,Whole Year
+129,Onion,Winter
+130,Other  Rabi Pulses,Rabi
+131,Other  Rabi Pulses,Summer
+132,Other Cereals,Kharif
+133,Other Cereals,Rabi
+134,Other Cereals,Summer
+135,Other Kharif Pulses,Kharif
+136,Other Kharif Pulses,Rabi
+137,Other Oilseeds,Kharif
+138,Other Oilseeds,Rabi
+139,Other Oilseeds,Summer
+140,Other Oilseeds,Whole Year
+141,Other Summer Pulses,Summer
+142,Peas & Beans (Pulses),Autumn
+143,Peas & Beans (Pulses),Kharif
+144,Peas & Beans (Pulses),Rabi
+145,Peas & Beans (Pulses),Summer
+146,Peas & Beans (Pulses),Whole Year
+147,Peas & Beans (Pulses),Winter
+148,Potato,Autumn
+149,Potato,Kharif
+150,Potato,Rabi
+151,Potato,Summer
+152,Potato,Whole Year
+153,Potato,Winter
+154,Ragi,Autumn
+155,Ragi,Kharif
+156,Ragi,Rabi
+157,Ragi,Summer
+158,Ragi,Whole Year
+159,Ragi,Winter
+160,Rapeseed &Mustard,Kharif
+161,Rapeseed &Mustard,Rabi
+162,Rapeseed &Mustard,Whole Year
+163,Rapeseed &Mustard,Winter
+164,Rice,Autumn
+165,Rice,Kharif
+166,Rice,Rabi
+167,Rice,Summer
+168,Rice,Whole Year
+169,Rice,Winter
+170,Safflower,Kharif
+171,Safflower,Rabi
+172,Safflower,Whole Year
+173,Sannhamp,Autumn
+174,Sannhamp,Kharif
+175,Sannhamp,Rabi
+176,Sannhamp,Whole Year
+177,Sesamum,Autumn
+178,Sesamum,Kharif
+179,Sesamum,Rabi
+180,Sesamum,Summer
+181,Sesamum,Whole Year
+182,Sesamum,Winter
+183,Small Millets,Autumn
+184,Small Millets,Kharif
+185,Small Millets,Rabi
+186,Small Millets,Summer
+187,Small Millets,Whole Year
+188,Soyabean,Autumn
+189,Soyabean,Kharif
+190,Soyabean,Rabi
+191,Soyabean,Whole Year
+192,Soyabean,Winter
+193,Sugarcane,Autumn
+194,Sugarcane,Kharif
+195,Sugarcane,Rabi
+196,Sugarcane,Summer
+197,Sugarcane,Whole Year
+198,Sugarcane,Winter
+199,Sunflower,Kharif
+200,Sunflower,Rabi
+201,Sunflower,Summer
+202,Sunflower,Whole Year
+203,Sweet Potato,Autumn
+204,Sweet Potato,Kharif
+205,Sweet Potato,Rabi
+206,Sweet Potato,Whole Year
+207,Sweet Potato,Winter
+208,Tapioca,Autumn
+209,Tapioca,Kharif
+210,Tapioca,Rabi
+211,Tapioca,Whole Year
+212,Tobacco,Kharif
+213,Tobacco,Rabi
+214,Tobacco,Summer
+215,Tobacco,Whole Year
+216,Turmeric,Autumn
+217,Turmeric,Kharif
+218,Turmeric,Rabi
+219,Turmeric,Summer
+220,Turmeric,Whole Year
+221,Turmeric,Winter
+222,Urad,Autumn
+223,Urad,Kharif
+224,Urad,Rabi
+225,Urad,Summer
+226,Urad,Whole Year
+227,Urad,Winter
+228,Wheat,Kharif
+229,Wheat,Rabi
+230,Wheat,Summer
+231,Wheat,Whole Year
+232,Wheat,Winter
