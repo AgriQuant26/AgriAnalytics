@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 #load original data
-df= pd.read_csv("C:\\Users\\chowd\\Downloads\\crop_yield.csv")
+df= pd.read_csv("AgriAnalytics\\Data\\raw\\crop_yield_data.csv")
 
 #standarise column names
 df.columns = (df.columns
@@ -47,7 +47,7 @@ synthetic_df = pd.DataFrame(synthetic_rows)
 crop_yield_1997_2025 = pd.concat([df, synthetic_df], ignore_index=True)
 
 #create output folders
-output_folder = "Dataset_folder"
+output_folder = "C:\\Users\\chowd\\VS_Projects\\AgriAnalytics\\Data"
 yearly_folder = os.path.join(output_folder, "yearly_csv")
 
 os.makedirs(output_folder, exist_ok=True)

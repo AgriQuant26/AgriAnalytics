@@ -21,3 +21,7 @@ df = pd.read_csv(full_path)
 
 # 4. Success! Check the data
 print(df.head())
+
+# 5. Save the data in csv format
+output_folder = "AgriAnalytics/Data/raw"
+df.to_csv(os.path.join(output_folder, "crop_yield_data.csv"), index=False)

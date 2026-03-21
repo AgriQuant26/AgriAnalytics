@@ -1,9 +1,9 @@
 import os 
 import pandas as pd
 
-input_file = "C:\\Users\\chowd\\VS_Projects\\AgriAnalytics\\cleaned_crop_data_final.csv"
+input_file = "AgriAnalytics\\cleaned_crop_data_final.csv"
 #create output folder
-output_folder = "Fact_and_Dimensions"
+output_folder = "AgriAnalytics\\Fact_and_Dimensions"
 os.makedirs(output_folder,exist_ok=True)
 
 df = pd.read_csv(input_file)

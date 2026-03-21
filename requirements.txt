@@ -1,1 +1,1 @@
-pip install pandas numpy sqlalchemy
+pip install pandas numpy sqlalchemy kagglehub 
