@@ -1,15 +1,20 @@
+import os
 import numpy as np
 import pandas as pd
 
-df= pd.read_csv("C:\\Users\\chowd\\Downloads\\crop_yield.csv")
+#load original data
+df= pd.read_csv("AgriAnalytics\\Data\\raw\\crop_yield_data.csv")
 
+#standarise column names
 df.columns = (df.columns
             .str.strip()
             .str.lower()
             .str.replace(" ","_") )
 
+#base data for synthetic years
 base_df = df[df["crop_year"] == 2020 ].copy() 
 
+#function to add random noise
 def add_noise(value, percent=0.05):
     if pd.isna(value):
         return np.nan
@@ -18,6 +23,7 @@ def add_noise(value, percent=0.05):
 
     return max(0, new_value)
 
+#generate synthetic data for 2021 - 2025
 synthetic_rows = []
 
 for year in range (2021, 2026):
@@ -37,6 +43,25 @@ for year in range (2021, 2026):
 
 synthetic_df = pd.DataFrame(synthetic_rows)
 
-crop_yield_2025 = pd.concat([df, synthetic_df], ignore_index=True)
+#combine original and synthetic data
+crop_yield_1997_2025 = pd.concat([df, synthetic_df], ignore_index=True)
 
-crop_yield_2025.to_csv("crop_yield_2025.csv",index=False)
+#create output folders
+output_folder = "C:\\Users\\chowd\\VS_Projects\\AgriAnalytics\\Data"
+yearly_folder = os.path.join(output_folder, "yearly_csv")
+
+os.makedirs(output_folder, exist_ok=True)
+os.makedirs(yearly_folder, exist_ok=True) 
+
+#save full dataset
+crop_yield_1997_2025.to_csv(os.path.join(output_folder, "crop_yield_1997_2025.csv"), index=False)
+
+#save each year as sepearte csv
+years = sorted(crop_yield_1997_2025["crop_year"].unique())
+
+for year in years:
+    year_df = crop_yield_1997_2025[crop_yield_1997_2025["crop_year"]== year]
+    year_csv_path= os.path.join(yearly_folder, f"crop_yield_{year}.csv")
+    year_df.to_csv(year_csv_path, index=False)
+    
+
